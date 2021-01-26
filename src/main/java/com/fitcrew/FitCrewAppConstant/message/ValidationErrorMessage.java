@@ -17,5 +17,16 @@ public class ValidationErrorMessage {
     public static final String TRAINING_DESCRIPTION_ERROR_MESSAGE = "Short description of training must be equal or grater than 2 characters and less than 20 character";
     public static final String TRAINING_ERROR_MESSAGE = "Training must be equal or grater than 2 characters and less than 20 character";
     public static final String TRAINING_NAME_ERROR_MESSAGE = "Name of training must be equal or grater than 2 characters and less than 20 character";
-
+    public static final String EMAIL_FORMAT = "Email format is bad";
+    public static final String PHONE_FORMAT = "Phone number format is bad";
+    public static final String NOT_ALL_TRAINING_VALUES = "Not all training values has been set";
+    public static final String NOT_ALL_ADMIN_VALUES = "Not all admin values has been set";
+    public static final String NOT_ALL_TRAINER_VALUES = "Not all trainer values has been set";
+    public static final String NOT_ALL_CLIENT_VALUES = "Not all client values has been set";
+    public static final String NOT_ALL_RATING_VALUES = "Not all rating values has been set";
+    public static final String NOT_ALL_LOGIN_VALUES = "Not all login values has been set";
+    public static final String NOT_ALL_EMAIL_VALUES = "Not all email values has been set";
+    public static final String ADMIN_ID_ERROR_MESSAGE = "Admin id is not unique";
+    public static final String CLIENT_ID_ERROR_MESSAGE = "Client id is not unique";
+    public static final String TRAINER_ID_ERROR_MESSAGE = "Trainer id is not unique";
 }
