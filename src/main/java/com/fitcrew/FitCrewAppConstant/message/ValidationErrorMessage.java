@@ -8,12 +8,7 @@ public class ValidationErrorMessage {
     public static final String SENDER_ERROR_MESSAGE = "Email sender name must be equal or grater than 2 characters and less than 20 character";
     public static final String RECIPIENT_ERROR_MESSAGE = "Email recipient name must be equal or grater than 2 characters and less than 20 character";
     public static final String SUBJECT_ERROR_MESSAGE = "Email subject must be equal or grater than 2 characters and less than 20 character";
-    public static final String LOGIN_ERROR_MESSAGE = "Login cannot be null";
-    public static final String PASSWORD_ERROR_MESSAGE = "Password cannot be null";
-    public static final String RATING_ERROR_MESSAGE = "Rating amount must be equal or grater than 1 characters and less than 10 character";
-    public static final String TYPE_OF_TRAINING_ERROR_MESSAGE = "Type of training must be equal or grater than 2 characters and less than 20 character";
     public static final String TRAINER_DESCRIPTION_ERROR_MESSAGE = "Description about trainer must be equal or grater than 2 characters and less than 200 character";
-    public static final String ROLE_ERROR_MESSAGE = "Role cannot be null";
     public static final String TRAINING_DESCRIPTION_ERROR_MESSAGE = "Short description of training must be equal or grater than 2 characters and less than 20 character";
     public static final String TRAINING_ERROR_MESSAGE = "Training must be equal or grater than 2 characters and less than 20 character";
     public static final String TRAINING_NAME_ERROR_MESSAGE = "Name of training must be equal or grater than 2 characters and less than 20 character";
@@ -23,7 +18,6 @@ public class ValidationErrorMessage {
     public static final String NOT_ALL_ADMIN_VALUES = "Not all admin values has been set";
     public static final String NOT_ALL_TRAINER_VALUES = "Not all trainer values has been set";
     public static final String NOT_ALL_CLIENT_VALUES = "Not all client values has been set";
-    public static final String NOT_ALL_RATING_VALUES = "Not all rating values has been set";
     public static final String NOT_ALL_LOGIN_VALUES = "Not all login values has been set";
     public static final String NOT_ALL_EMAIL_VALUES = "Not all email values has been set";
     public static final String ADMIN_ID_ERROR_MESSAGE = "Admin id is not unique";
