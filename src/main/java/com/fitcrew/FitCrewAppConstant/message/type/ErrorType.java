@@ -26,8 +26,8 @@ public enum ErrorType {
 	NO_ADMIN_SAVED("Admin save failed"),
 	NO_CLIENTS_FOUND("No clients found"),
 	NO_TRAINER_BY_TRAINER_ID("No trainer found by trainer id"),
-	NO_CLIENT_BY_TRAINER_ID("No client found by trainer id"),
-	NO_ADMIN_BY_TRAINER_ID("No admin found by trainer id");
+	NO_CLIENT_BY_CLIENT_ID("No client found by trainer id"),
+	NO_ADMIN_BY_ADMIN_ID("No admin found by trainer id");
 
 	private final String text;
 
