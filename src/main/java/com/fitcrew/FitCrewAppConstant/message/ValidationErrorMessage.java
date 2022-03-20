@@ -1,5 +1,8 @@
 package com.fitcrew.FitCrewAppConstant.message;
 
+import lombok.experimental.UtilityClass;
+
+@UtilityClass
 public class ValidationErrorMessage {
 
     public static final String FIRST_NAME_ERROR_MESSAGE = "First name must be equal or grater than 2 characters and less than 20 character";
